@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.orientation-logos img{
+    width: 40px;
+    height: 40px;
+}
+.orientation-logos img:hover{
+    color: green;
+}
+.header-footer-logos i{
+    padding-inline: 5px;
+}
+#header-footer-img{
+    width: 40px;
+    height: 40px;
+}
+#navbar-brand{
+    margin-left: 10%;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.overlay-content-fluid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.carousel-item{
+    position: relative;
+}   
+.carousel-item img{
+    object-fit: cover;
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
+}
+#section-2-card{
+    overflow: hidden;
+    border: none;
+}
+#section-2-card img{
+    overflow: hidden;
+}
+.zoom-effect{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+#section-2-card img:hover{
+    transform: translate3D(0,-1px,0) scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+#see-more-arrow{
+    width: 15px;
+    height: 20px;
+}
+#button-see-all{
+    padding-inline: 100px;
+    border-radius: 0;
+}
+.section-3{
+    max-width: 100%;
+    overflow: hidden;
+}
+.section-3 img{
+    max-width: 100%;
+}
+.section-4{
+    max-width: 100%;
+    overflow: hidden;
+}
+.section-4 img{
+    max-width: 100%;
+}
+#section-5-card{
+    overflow: hidden;
+    border: none;
+}
+.section-5-image-box{
+    width: 370px !important;
+    height: 300px !important;
+
+}
+.section-5-image-box img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.section-5-card .zoom-effect{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+#section-5-card img:hover{
+    transform: translate3D(0,-1px,0) scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+#section-6-cards{
+    text-align: -webkit-center;
+    border: transparent;
+}
+.section-7-input-box input{
+    padding-left: 20px;
+    width: 40%;
+    padding-block: 15px;
+}
+.section-7{
+    padding-bottom: 50px;
+}
+.footer-content-logos i{
+    padding-inline: 5px;
+    margin-left: 10%;
+}
+.footer-content{
+    margin-left: 10%;
+}
+.footer-nav{
+    margin-right: 10%;
+}
+@media screen and (max-width:992px){
+    .navbar-nav{
+        margin-left: 10%;
+        margin-block: 2%;
+    }
+    .section-2 button{
+        width: 20%;
+        border-radius: 0;
+        padding: 20px;
+    }
+    .section-3{
+        margin-top: 50px;
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+    .section-3 .row{
+        display: block;
+    }
+    .section-3 #col-section-3{
+        padding: 0;
+    }
+    .section-3-content{
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .section-3-content button{
+        width: 30%;
+        border-radius: 0;
+    }
+    .section-4{
+        margin-top: 50px;
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+    .section-4-content{
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .section-4-content button{
+        width: 30%;
+        border-radius: 0;
+    }
+    #section-4-content {
+        order: 2;
+    }
+    #section-4-image {
+        order: 1;
+    }
+    .section-5-image-box{
+        width: 100% !important;
+        height: 100% !important;
+    
+    }
+    .section-5-image-box img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .section-7 button{
+        width: 20%;
+        border-radius: 0;
+    }
+    .section-7-content{
+        padding-top: 30px;
+    }
+    .footer-nav{
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width:992px){
+    .section-2 button{
+        width: 20%;
+        border-radius: 0;
+        padding: 20px;
+    }
+    .section-3{
+        margin-top: 100px   ;
+    }
+    .section-3-content{
+        margin-bottom: 50px;
+        padding: 50px;
+    }
+    .section-3-content button{
+        width: 30%;
+        border-radius: 0;
+    }
+    .section-4{
+        margin-top: 50px;
+    }
+    .section-4-content{
+        margin-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 50px;
+        padding-block: 50px;
+    }
+    
+    .section-4-content button{
+        width: 30%;
+        border-radius: 0;
+    }
+    .section-5{
+        margin-top: 100px;
+    }
+    .section-6{
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-6-content-1{
+        margin-bottom: 30px;
+    }
+    .section-7{
+        padding-top: 50px;
+    }
+    .section-7 button{
+        width: 13%;
+        border-radius: 0;
+    }
+    .section-7-content{
+        padding-top: 30px;
+    }
+    footer{
+        display: flex;
+    }
+}
+@media screen and (max-width:550px){
+    .section-2 .button{
+        text-align: center;
+    }
+    .section-2 button{
+        border-radius: 0;
+        padding-block: 10px;
+        padding-inline: 20px;  
+        width: 100%; 
+    }
+    .section-3-content .button{
+        text-align: center;
+    }
+    .section-3-content button{
+        border-radius: 0;
+        padding-block: 10px;
+        padding-inline: 20px;  
+        width: 100%; 
+    }
+    .section-4-content .button{
+        text-align: center;
+    }
+    .section-4-content button{
+        border-radius: 0;
+        padding-block: 10px;
+        padding-inline: 20px;  
+        width: 100%; 
+    }
+    .section-6-content-1{
+        padding-block: 40px;
+        padding-inline: 20px;
+    }
+    .section-6-cards .card{
+        margin: 10px;
+    }
+    .section-7 button{
+        width:30%;
+        border-radius: 0;
+    }
+    .section-7-content{
+        padding-top: 30px;
+        padding-inline: 20px;
+    }
+    .section-7-input-box input{
+        width: 80%;
+        padding-inline: 10px;
+        padding-block: 10px;
+    }
+    .footer-content{
+        display:flex;   
+    }
+
+    .footer-nav ul{
+        padding-left: 0;
+    }
+}
+@media screen and (min-width:550px){
+    .header-footer-logos{
+        display:flex;   
+    }
+    .header-footer-content-1{
+        display:flex;   
+    }
+    #header-footer-p-2{
+        padding-left: 20px;
+    }
+    .footer-content{
+        display:flex;   
+    }
+    .footer-content-logos{
+        display:flex; 
+    }
+}

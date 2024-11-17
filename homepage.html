@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSurfers-Homepage(Task-project)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="homepage">
+        <div class="second-navbar">
+            <div class="header-footer d-flex justify-content-between bg-dark text-light align-content-center">
+                <div class="header-footer-content-1 p-2 align-items-center" style = "margin-left: 10% ;">
+                    <p class =  "mt-2 mb-0">+48 789 456 123</p>
+                    <p class =  "mt-2 mb-0" id = "header-footer-p-2">contact@ssurfers.com</p>
+                </div>
+                <div class="header-footer-logos light p-2">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="actual-navbar">
+            <nav class = "navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="navbar-brand fw-bold fs-2" id = "navbar-brand"><a class = "text-dark text-decoration-none" href = "#">SSURFERS</a></div>
+                    <button class="navbar-toggler" type = "button" data-bs-target = "#navbar-content" data-bs-toggle = "collapse" aria-expanded = "false" aria-controls = "navbar-content" aria-label="Toggle navigation">
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" style="margin-right: 10%;" id = "navbar-content">
+                        <ul class = "navbar-nav gap-4" id = "navbar">
+                            <li class = "nav-item">
+                                <a class = "nav-link active text-dark" aria-current="page" href = "#">Home</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link text-dark" href = "#">Products</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link text-dark" href = "#">Blog</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link text-dark" href = "#">About us</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link text-dark" href = "#">Contact</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link text-dark" href = "#"><i class="bi bi-cart3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> 
+        <!-- section-1  -->
+        <div class="section-1">
+            <div id="carousel-autoplay" class="carousel slide" data-bs-ride="carousel">
+                <div class="overlay d-flex justify-content-center align-items-center text-center">
+                    <div class="overlay-content-fluid">
+                        <p class = "fs-1 text-light">Choose a board for yourself</p>
+                        <p class = "text-light">Duis condimentum felis sit amet turpis pellentesque ultrices. Curabitur mollis ac magna vel eleifend.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <button class = "btn p-3" type = "btn" style = "background-color: orangered;"><a class = "text-decoration-none text-light"href = "#">CHECK OUR BOARDS</a></button>
+                    </div>
+                </div>
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner" style = "height: 93vh;">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_601/rwdMode_1/960x500/slider_01.webp" class = "d-block w-100"> 
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_590/1/rwdMode_1/2400x638/slider_02.jpg" class = "d-block w-100"> 
+                        </div>
+                        <div class="carousel-item" data-bs-interval = "1000">
+                            <img src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_590/2/rwdMode_1/2400x638/slider_03.jpg" class = "d-block w-100"> 
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-autoplay" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-autoplay" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- section-2 -->
+        <div class="section-2 mt-5">
+            <p class = "fs-2 text-center">Surfboards</p>
+            <div class="section-2-cards px-5">
+                <div class=" row section-2-cards m-2" id  = "section-2-cards">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_28/ls1vv6zr/element_654/rwdMode_1/470x527/product_surfboard_8.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 1 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">450,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_27/ls1vv7wy/element_654/rwdMode_1/470x527/product_surfboard_7.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 2 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">340,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_26/ls1vv945/element_654/rwdMode_1/470x527/product_surfboard_6.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 3 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">425,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_25/ls1vv9wv/element_654/rwdMode_1/470x527/product_surfboard_5.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 4 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">370,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_24/ls1vvamd/element_654/rwdMode_1/470x527/product_surfboard_4.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 5 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">290,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_23/ls1vvbck/element_654/rwdMode_1/470x527/product_surfboard_3.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 6 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">500,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_22/ls1vvc4l/element_654/rwdMode_1/470x527/product_surfboard_2.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 7 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">410,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" id = "section-2-card" style = "max-width: fit-content;">
+                            <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_21/ls1vvcwa/element_654/rwdMode_1/470x527/product_surfboard_1.webp">
+                            <p class = "fs-3 mt-2 mb-1">Product 8 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">340,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="button text-center">
+                        <button class = "btn" type = "btn" style = "background-color: rgba(243, 92, 34, 1);"><a class = "text-decoration-none text-light"href = "#">SEE ALL</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section-3 -->
+        <div class="section-3">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12" id = "col-section-3">
+                    <div class="section-3-image">
+                        <img src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_597/rwdMode_1/960x500/blog_main.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 align-content-center" id  = "col-section-3">
+                    <div class="section-3-content">
+                        <p class = "fs-2">Learn More about Surfing</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et mauris lacinia, egestas velit eu, ultricies risus. Cras venenatis nec est volutpat ultrices. Phasellus velit odio, laoreet at placerat et, blandit a dolor. Mauris eu leo at ante hendrerit viverra. Vestibulum vel lectus non velit hendrerit luctus. </p>
+                    <div class="button">
+                        <button class = "btn" type = "btn" style = "border: 1px solid;"><a class = "text-decoration-none text-dark"href = "#">READ MORE</a></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section-4 -->
+        <div class="section-4">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 align-content-center" id  = "section-4-content">
+                    <div class="section-4-content">
+                        <p class = "fs-2">Interesting events for surfers</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et mauris lacinia, egestas velit eu, ultricies risus. Cras venenatis nec est volutpat ultrices. Phasellus velit odio, laoreet at placerat et, blandit a dolor. Mauris eu leo at ante hendrerit viverra. Vestibulum vel lectus non velit hendrerit luctus. </p>
+                    <div class="button">
+                        <button class = "btn" type = "btn" style = "border: 1px solid;"><a class = "text-decoration-none text-dark"href = "#">READ MORE</a></button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12" id = "section-4-image">
+                    <div class="section-4-image">
+                        <img src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_601/rwdMode_1/960x500/slider_01.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section-5 -->
+         <div class="section-5">
+            <p class = "fs-2 text-center">Other Products</p>
+            <div class="section-5-cards px-5">
+                <div class=" row section-5-cards m-2" id  = "section-5-cards">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id = "section-5-card" style = "max-width: fit-content;">
+                            <div class = "section-5-image-box">
+                                <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/lib/hfoclq/product_backpack-kja0dh9q.jpg">
+                            </div>
+                            <p class = "fs-3 mt-2 mb-1">Product 1 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">450,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id = "section-5-card" style = "max-width: fit-content;">
+                            <div class = "section-5-image-box">
+                                <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_28/ls1vv6zr/element_654/rwdMode_1/470x527/product_surfboard_8.webp">
+                            </div>
+                            <p class = "fs-3 mt-2 mb-1">Product 1 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">450,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id = "section-5-card" style = "max-width: fit-content;">
+                            <div class = "section-5-image-box">
+                                <img class = "py-3 zoom-effect" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/newspage_27/ls1vv7wy/element_654/rwdMode_1/470x527/product_surfboard_7.webp">
+                            </div>
+                            <p class = "fs-3 mt-2 mb-1">Product 1 </p>
+                            <p class = "fs-3 mt-2 mb-1 fw-bold">450,000 USD</p>
+                            <a class = "text-decoration-none mt-2" style = "color: rgba(243, 92, 34, 1);"href="#">Zobacz więcej →</a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <nav aria-label="Page navigation">
+                      <ul class="pagination" style="color:rgba(243, 92, 34, 1);">
+                        <li class="page-item">
+                          <a class="page-link" href="#" style="color:rgba(243, 92, 34, 1);">
+                            <i class="bi bi-caret-left-fill"></i>
+                          </a>
+                        </li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#" style="background-color:rgba(243, 92, 34, 1); color: #fff; border-color: transparent;">1</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" style="color:rgba(243, 92, 34, 1);">2</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" style="color:rgba(243, 92, 34, 1);">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" style="color:rgba(243, 92, 34, 1);">4</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" style="color:rgba(243, 92, 34, 1);">
+                            <i class="bi bi-caret-right-fill"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- section-6  -->
+         <div class="section-6" style = "background-color: rgb(255, 241, 243)">
+            <div class="section-6-content-1 text-center">
+                <p class = "fs-1">Customer Reviews</p>
+                <p class = "fs-5">Nunc condimentum feugiat tellus sit amet lacinia. Pellentesque laoreet metus sed eros molestie, sit amet <br>aliquet sapien accumsan. Mauris ac diam posuere</p>
+            </div>
+            <div class="section-6-cards">
+                <div class=" row section-6-cards m-2" id  = "section-6-cards">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card text-center bg-light border-0" id = "section-6-card" style = "max-width: fit-content; padding: 40px;">
+                            <div class = "section-6-image-box align-self-center">
+                                <img class = "py-3" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_606/rwdMode_1/60x60/customer_03.webp" style="border-radius: 50%;">
+                            </div>
+                            <p class = "mt-2 mb-1" >Maecenas malesuada urna in libero vestibulum, eu dapibus arcu <br>lacinia. Class aptent taciti sociosqu ad litora torquent per conubia <br>nostra interdum sollicitudin.</p>
+                            <p class = "mt-2 mb-1" style="color:rgba(243, 92, 34, 1);">@Julio_Diaz</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card text-center bg-light border-0" id = "section-6-card" style = "max-width: fit-content; padding: 40px;">
+                            <div class = "section-6-image-box align-self-center">
+                                <img class = "py-3" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/ls1vv47t/element_609/rwdMode_1/60x60/customer_01.webp" style="border-radius: 50%;">
+                            </div>
+                            <p class = "mt-2 mb-1">Pellentesque habitant morbi tristique senectus et netus et <br> malesuada fames ac turpis egestas. Vivamus id congue tortor. <br>Pellentesque dictum et dolor vitae egestas.</p>
+                            <p class = "mt-2 mb-1" style="color:rgba(243, 92, 34, 1);">@Lisa_Wright</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section-7 -->
+        <div class="section-7 text-center text-light" style="background-color: #f35c22">
+            <div class="section-7-content">
+                <p class = "fs-2">Sign Up for the newsletter!</p>
+                <p class = "fs-5">Sign up for the newsletter and receive free web design knowledge.</p>
+            </div>
+            <div class="section-7-input-box text-secondary">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="button mt-3">
+                <button class = "btn" type = "btn" style = "border: 1px solid WHITE;"><a class = "text-decoration-none text-light"href = "#">SIGN UP</a></button>
+            </div>
+        </div>
+        <footer class = "align-items-center justify-content-between p-3">
+            <div class="footer-content">
+                <p class = "mb-0 fw-bold fs-2">SSURFERS</p>
+                <div class="footer-content-logos align-self-center p-2 ms-5">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <ul class = "d-flex gap-4 mb-0">
+                    <li style="list-style: none;"><a href="#" class = "text-decoration-none text-dark">Home</a></li>
+                    <li style="list-style: none;"><a href="#" class = "text-decoration-none text-dark">Products</a></li>
+                    <li style="list-style: none;"><a href="#" class = "text-decoration-none text-dark">Help</a></li>
+                    <li style="list-style: none;"><a href="#" class = "text-decoration-none text-dark">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
